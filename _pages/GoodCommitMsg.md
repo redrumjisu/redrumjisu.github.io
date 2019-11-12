@@ -2,6 +2,42 @@
 
 [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
+
+## Commit Template
+[작성 가이드](https://udacity.github.io/git-styleguide/)
+
+```text
+   type : subject
+   
+   body
+   
+   footer
+```
+
+### Type
+|타입|내용|
+|:---:|---|
+|feat|새로운 기능 추가|
+|fix|버그 수정|
+|docs|문서 변경|
+|style|포멧 변경, 세미콜론 누락 등 코드 수정 안함|
+|refactor|프로덕션 코드의 리팩토링|
+|test|테스트 추가, 리팩토링 테스트 등 프로덕션 코드 수정 안함|
+|chore|빌드 작업, 패키지 관리자 구성 업데이트, 프로덕션 코드 수정 안함|
+
+### Subject
+명령어 형식의 50자 이내의 문장으로, 대문자로 시작하고 마침표를 사용하지 않는다.
+
+### Body
+본문은 선택사항으로 커밋의 상세 내용을 작성한다. 
+제목과 본문 사이의 빈 줄이 필요하며 각 행의 길이를 72자 이하로 제한해야 한다.
+
+### Footer
+바닥글은 선택사항으로 이슈 트래커 ID 를 참조하는데 사용한다.
+
+
+
+
 ## Commit 영어단어 사전
 ### FIX
 올바르지 않은 동작을 고친 경우, 제일 많이 사용.
