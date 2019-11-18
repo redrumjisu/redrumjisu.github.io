@@ -1,5 +1,7 @@
 # main links
 main:
+  title : "Kotlin"
+  url: /kotlin/
   # - title: "TIL"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
