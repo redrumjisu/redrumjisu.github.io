@@ -1,7 +1,7 @@
 --- 
 title: "코틀린 프로그래밍 - 상세한 가이드로 코틀린 기능과 친숙해지기"
 permalink: /kotiln/
-layout: ingle
+layout: single
 --- 
 
 # 코틀린 기본 구성요소
