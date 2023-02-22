@@ -19,3 +19,17 @@ runApp(MaterialApp(home: MyApp()));
 | 상태를 변경할 수 없음  | 상태가 변경되면 다시 그려짐 |
 
 <img src="../_images/flutter_state_lifecycle.png" width="50%" height="50%">
+
+
+## shared_preferences 애러
+
+MissingPluginException(No implementation found for method getAll on channel plugins.flutter.io/shared_preferences)
+
+핫리로드 상태에서 발생.  
+완전히 종료 후 재빌드 하면 발생하지 않음.
+
+## No Material widget found 에러 
+
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+
